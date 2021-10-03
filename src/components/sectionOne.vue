@@ -5,7 +5,7 @@
         <span class="font-weight-bold text-white dm-sans-36 mt-5">CHOOSE YOUR QUALITY DELIVERY OF YOUR CARGO</span>
         <div class="input-group mt-4">
           <div class="form-outline m-0 p-0 col-lg-10">
-            <input type="search" placeholder="Enter your tracking number" class="form-control pt-3 pb-3 " />
+            <input type="search" placeholder="Enter your tracking number" class="form-control pt-3 pb-3 pl-4" />
           </div>
           <div>
             <button type="button" class="btn search-btn p-3">
@@ -45,7 +45,7 @@ export default {
 }
 
 input[type=search] {
-  width: 403px;
+  width: 400px;
 }
 
 .search-btn {

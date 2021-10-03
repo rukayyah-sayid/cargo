@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar navbar-expand-sm mt-4 mb-2 fixed-top navbar-transparent dm-sans-18">
+  <div class="navbar navbar-expand-sm mt-4 mb-2 navbar-transparent dm-sans-18">
       <!-- LINKS -->
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -9,7 +9,7 @@
             <a href="#" class="navbar-link mr-5">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link mr-5">Services</a>
+            <a href="#services" class="navbar-link mr-5">Services</a>
           </li>
           <li class="nav-item">
             <a href="#" class="navbar-link mr-5">About</a>
@@ -45,12 +45,12 @@ export default {
 }
 
 .navbar-link {
-  color: white;
+  color: black;
 }
 
 .navbar-link:hover {
   text-decoration: none !important;
-  color: white;
+  color: #f78503;
 }
 
 .navbar-link:focus {
